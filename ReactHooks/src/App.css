@@ -1,0 +1,89 @@
+
+:root {
+  --background-color: #f2f3f7; /* Light Gray-Blue for Background */
+  --primary-color: #1d3557; /* Deep Blue for Headers and Accents */
+  --secondary-color: #e63946; /* Red for Highlights */
+  --text-color: #333; /* Dark Gray for Text */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button :hover {
+  background-color: var(--secondary-color);
+}
+
+.item-list {
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span{
+  margin-right:10px;
+}
+

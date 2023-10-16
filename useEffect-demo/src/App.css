@@ -1,0 +1,100 @@
+/* App Container */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li button:hover {
+  background-color: #c9302c;
+}
+
+/* Toggle Button */
+li button.toggle-button {
+  background-color: #5bc0de;
+}
+
+li button.toggle-button:hover {
+  background-color: #46b8da;
+}
+
+/* Error Message */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
