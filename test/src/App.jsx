@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { useEffect } from 'react'
 
@@ -91,7 +89,7 @@ function App() {
           )}
 
         <div className= "busview">
-              <div classname="bus">
+              <div className="bus">
                   <h3> BUS 1 : CEBU and MANDAUE</h3>
                   {bus1.length > 0 && (
                     <div>
@@ -105,7 +103,7 @@ function App() {
                   )}
               </div>
               
-              <div classname="bus">
+              <div className="bus">
                   <h3> BUS 2 : LILO-AN and LAPU-LAPU</h3>
                   {bus2.length > 0 && (
                     <div>
@@ -118,7 +116,7 @@ function App() {
                     </div>  
                   )}
               </div>
-              <div classname="bus">
+              <div className="bus">
                   <h3> BUS 3 : CONSOLACION and TALISAY</h3>
                   {bus3.length > 0 && (
                     <div>

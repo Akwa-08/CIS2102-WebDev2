@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "create": "^0.0.2",
+    "express": "^4.18.2",
+    "vite": "^4.5.0"
+  },
+  "name": "cis2102-webdev2",
+  "description": "Repository for Web Development 2 under Sir Keenan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
